@@ -1,0 +1,60 @@
+body {
+    background-image: url(img/bg.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 40px;
+}
+p {
+    color: rgb(53, 51, 51);
+    
+}
+a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #733CD9;
+}
+a:hover{
+    color: black;
+    border: 2px solid #733CD9;
+    background-color: transparent;
+}
+.orange-highlight{
+    color: orange;
+}
+section {
+    height: 570px;
+    padding-bottom: 150px;
+
+}
+section .half-block{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-block img {
+    width: 100%;
+}
+.experience-box{
+    height: 300px;
+    box-shadow: 10px 10px 40px;
+    
+}
+.experience-box h3{
+    color: rgb(58, 1, 102);
+}
+#footer-part{
+    height: 400px;
+    padding-bottom: 100px;
+}
+#footer-part h1 {
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
